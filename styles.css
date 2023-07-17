@@ -22,15 +22,20 @@ body{
     flex: auto;
 }
 
-.header {
-    color: white;
-    font-size: 60px;
-    text-align: center;
+.header-container {
+    display: flex;
     background-color: #C38D9E;
-    margin:auto;
-    position:relative;
-    font-family: "Copperplate" , "Papyrus", "Serif"
 }
+.header-container > .header {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-family: "Copperplate" , "Papyrus", "Serif";
+    flex: 1;
+}
+
 
 
 div a{
